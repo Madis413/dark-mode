@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: rgb(63, 63,63);
+
+}
+
+.contenido{
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid rgb(194,194,194);
+    border-radius: 20px;
+}
+
+button{
+    padding: 10px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 30px;
+    border: none;
+    background-color: rgb(234,213,254);
+    border-radius: 10px;
+    align-items: center;
+}
+
+/*DARK MODE ESTILOS QUE CAMBIARIAN*/
+
+body.dark-mode{
+    background-color: rgb(38,38,38);
+}
